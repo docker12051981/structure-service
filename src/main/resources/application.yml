@@ -1,0 +1,20 @@
+server:
+  port: 9001
+
+spring:
+  data:
+    mongodb:
+      database: structure_db
+      port: 27017
+  application:
+    name: STRUCTURE-SERVICE
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    hostname: eureka-0
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
