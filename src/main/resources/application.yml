@@ -4,10 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      database: structure_db
-      port: 27017
-      host: mongo1
-      uri: mongodb://mongo1:27017,mongo2:27027,mongo3:27037/?replicaSet=rs0&retryWrites=true
+      uri: mongodb://mongo1:27017,mongo2:27027,mongo3:27037/?replicaSet=rs0&retryWrites=true/structure_db
   application:
     name: STRUCTURE-SERVICE
 
