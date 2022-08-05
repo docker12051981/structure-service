@@ -6,7 +6,7 @@ spring:
     mongodb:
       database: structure_db
       port: 27017
-      host: mongo1
+      host: mongodb1
   application:
     name: STRUCTURE-SERVICE
 
